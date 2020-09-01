@@ -1,0 +1,208 @@
+/*style.css*/
+/* Style page content */
+.main {
+    margin-left: 203px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    font-family: 'Berthold-Akzidenz-Grotesk-Light-Extended';
+}
+
+body {
+    margin: 0;
+    font-family: 'Berthold-Akzidenz-Grotesk-Light-Extended';
+    font-weight: 700;
+    background-color: black;
+    float: center;
+    /*background: linear-gradient(to right, rgb(229,91,126) 50%, rgb(246,218,115) 50%);*/
+}
+
+/*On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@font-face {
+    font-family: 'Berthold-Akzidenz-Grotesk-Light-Extended';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berthold Akzidenz Grotesk'),
+        url("//db.onlinewebfonts.com/t/2b2a97ab2c967477de4f982e36c934b6.eot"),
+        url("//db.onlinewebfonts.com/t/2b2a97ab2c967477de4f982e36c934b6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2b2a97ab2c967477de4f982e36c934b6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2b2a97ab2c967477de4f982e36c934b6.woff") format("woff"), url("//db.onlinewebfonts.com/t/2b2a97ab2c967477de4f982e36c934b6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2b2a97ab2c967477de4f982e36c934b6.svg#Berthold Akzidenz Grotesk BE") format("svg");
+}
+
+/*     this h1 style is not in use. Go down to h1 to directly change attributes
+
+        h1 {
+            color: purple;
+            font-size: 30px;
+            text-align: center;
+        }    
+*/
+/*
+.nav-title {
+        top: 0px;
+                    position: fixed;
+        font-size: 22px;
+        line-height: 35px;
+        width: 25vw;
+        font-style: italic;
+        color: rgb(246, 245, 240);
+        display: inline-block;
+    }
+*/
+
+/*  Replaced*******/
+.nav-title {
+    top: 0px;
+    /*            position: fixed;*/
+    font-size: 27px;
+    line-height: 35px;
+    width: 25vw;
+    font-style: italic;
+    color: rgb(246, 245, 240);
+}
+
+.subtitle {
+    width: 100%;
+    height: 15px;
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 9px;
+    letter-spacing: 4px;
+}
+
+.sidenav {
+
+    height: 100%;
+    /*  Full-height: remove this if you want "auto" height */
+    width: 203px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /*Fixed Sidebar (stay in place on scroll) */
+    z-index: 10;
+    /*       Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #111;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+
+}
+.image-circle {
+  border-radius: 20%;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(246, 245, 240);
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: rgb(136, 47, 143);
+    /* rgb(229, 91, 126);*/
+}
+
+
+/*
+        .split-colors {
+    	   background: linear-gradient(to right, rgb(246,218,115) 50%, rgb(246,218,115) 50%);
+           height:258px;
+        }
+*/
+.list-bg-colors {
+    color: rgb(246, 245, 240);
+
+    /*
+            background: linear-gradient(to right, rgb(246,218,115) 50%, rgb(246,245,240) 50%);
+            width:180px;
+            height:75px;
+*/
+}
+
+.pl-list-bg-colors {
+    color: rgb(246, 245, 240);
+
+}
+
+h2 {
+    float: center;
+    text-align: center;
+    color: rgb(196, 32, 52);
+}
+
+.title {
+    color: rgb(222, 219, 230);
+}
+
+
+/*
+        img {
+            max-width: 600px;
+            margin-left: 415px;
+        }
+*/
+
+h3 {
+    color: rgb(252, 242, 250);
+    font-size: 24px;
+    text-align: center;
+}
+
+.tab {
+    margin-left: 26px;
+    /*used for inserting indents */
+}
+
+.pl-tab {
+    margin-left: 10px;
+}
+
+.tab-lite {
+    margin-left: 20px;
+}
+
+form {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.pl-body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(to top, rgb(0, 0, 0) 50%, rgb(3, 5, 7) 50%);
+}
+
+.pl-para-title {
+    color: rgb(62, 138, 173);
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+}
+
+.pl-para-body {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+/*
+  .page-list{
+        top: 10;
+        left: 30px;
+        position: fixed;
+    }*/
